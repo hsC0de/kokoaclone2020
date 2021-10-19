@@ -1,6 +1,6 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .user-component,
@@ -22,7 +22,9 @@
 }
 
 .user-component__subtitle {
+  display: inline-block;
   margin-top: 8px;
+  margin-right: 2px;
   font-size: 17px;
   color: var(--main-color);
 }
@@ -52,4 +54,8 @@
 .user-component__time {
   margin-bottom: 6px;
   display: block;
+}
+
+.fa-exclamation-circle {
+  color: tomato;
 }
